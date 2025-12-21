@@ -18,9 +18,10 @@ from skimage.util import img_as_float
 import cv2 
 import time
 
+
 st.set_page_config(page_title="Deepfake Audio Detection",page_icon="")
 
-class_names = ['real','fake']
+class_names = ['real', 'fake']
 
 def save_file(sound_file):
     # save your sound file in the right folder by following the path
